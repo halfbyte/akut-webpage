@@ -1,0 +1,49 @@
+body {
+	background: #fff url(images/mainbg.png) top left repeat-x;
+	margin:8px; padding:0px;
+	font-family: Verdana, Arial, sans-serif;font-size:62.5%;
+text-align:center;
+}
+body div { text-align:left;}
+#header {
+	height:90px;width:683px;
+	background: transparent url(images/logo.png) top left no-repeat;
+	margin:0 auto; padding:0 0 0 100px;
+	/*border:1px solid red;*/
+}
+#header h1,#header h2 { margin:0;padding:0}
+#header h1 a:link, #header h1 a:visited { color:#000;text-decoration:none;}
+#header h1 a:hover {text-decoration:underline;}
+#header h1 { font-size:36px;font-weight:bold;}
+#header h2 { font-size:18px;color:#12832A;font-weight:normal;}
+#menuBar {width:783px;height:37px;font-size:12px; margin:0 auto;
+	background:#16B51C url(images/menubar.png) top left no-repeat;
+}
+#menuBar ul {list-style-type:none;margin:0;padding:8px 15px 5px 15px;}
+#menuBar ul li {display:inline;margin:0;padding:0 15px 0 5px; }
+#menuBar a:link,#menuBar a:visited { 
+	color:#fff; font-weight:bold;text-decoration:none;
+}
+#menuBar a:hover { text-decoration:underline; }
+#content { margin:1em auto 3em auto; font-size:1.6em; width:683px;}
+#content h1, #content h2, #content h3 { margin:0 0 10px 0;padding:0;}
+#content h1 { text-align:right;}
+#content h3 { font-family: Georgia, serif; color:#12832A}
+#content p { font-family:Georgia, serif;padding:0;margin:0 0 10px 0}
+#content li { font-family: Georgia, serif;}
+#footer { margin:0 auto; font-size:1.2em; text-align:center;}
+#footer p { margin:2px;padding:0}
+#content div.programBadge { 
+	border: 1px solid #16B51C; 
+	background:#ffc; 
+	float:right;
+	width:10em; 
+	margin:0 0 20px 10px;
+	padding:5px;
+	font-size:0.8em
+}
+#content div.programBadge ul { list-style-type:none;margin:0;padding:0}
+#content div.programBadge ul li { margin:0;padding:0;}
+.programItem { margin-bottom:30px;}
+
+#content td, #content th { font-family: Georgia, serif;}

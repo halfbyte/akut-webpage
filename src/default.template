@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang:}">
+  <head>
+    <title>{title: } - Arbeitskreis Umwelttechnik an der HAW Hamburg e.V.</title>
+    <link type="text/css" href="{relocatable: default.css}" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  </head>
+  <body>
+    <div id="header">
+	    <h1><a href="index.html">Arbeitskreis Umwelttechnik</a></h1>
+	    <h2>an der HAW Hamburg e.V.</h2>
+    </div>
+    <div id="menuBar">
+	    {menu: vertical}
+    </div>
+
+    <div id="content">
+	    <h1>{title:}</h1>
+	    {block: }
+    </div>
+
+    <div id="footer" class="bar">
+	    <p>&copy; Arbeitskreis Umwelttechnik an der HAW Hamburg e.V.</p>
+	    <p>Erstellt mit der Hilfe von <a href="http://webgen.rubyforge.org/">webgen</a></p>
+    		<p>(<a href="impressum.html">Impressum</a>)</p>
+    </div>
+  </body>
+</html> 
+

@@ -1,0 +1,104 @@
+---
+title: Steckbrief
+inMenu: true
+orderInfo: 50
+---
+Wenn Sie diesen Steckbrief ausfüllen, werden Ihre Daten in die 
+            Datenbank des AKUT e.V. aufgenommen und stehen allen anderen Mitgliedern 
+            zur Verfügung. Dies soll die Einrichtung einer Art Netzwerk von Umwelttechnikern 
+            ermöglichen, bzw. erleichtern.
+
+					<FORM METHOD="post" ACTION="/cgi-bin/send.cgi">
+                    <INPUT TYPE="hidden" NAME="recipient" VALUE="fhbakut@rzbd.fh-hamburg.de"/>
+                    <INPUT TYPE="hidden" NAME="subject" VALUE="Steckbrief-Formular"/>
+                    <INPUT TYPE="hidden" NAME="env_report" VALUE="REMOTE_ADDR,REMOTE_HOST,HTTP_USER_AGENT"/>
+                    <INPUT TYPE="hidden" NAME="print_config" VALUE="email"/>
+                    <INPUT TYPE="hidden" NAME="redirect" VALUE="http://www.rzbd.fh-hamburg.de/fhbakut/steckja.html" />
+
+
+
+                    <INPUT TYPE="hidden" NAME="missing_fields_redirect" VALUE="http://www.rzbd.fh-hamburg.de/fhbakut/stecknein.html"/>
+                    <INPUT TYPE="hidden" NAME="required" VALUE="NAME"/>
+                    <table align="center">
+                      <tr> 
+                        <td colspan=2 bgcolor=#006800><font color="white">Private 
+                          Angaben</font></td>
+                      </tr>
+                      <TR> 
+                        <td>Name(Pflichtfeld):</td>
+                        <td><input name="NAME" size="30" maxlength="60" /></td>
+
+                      </TR>
+                      <tr> 
+                        <td>Adresse:</td>
+                        <td><TEXTAREA cols=30 name=ADRESSE rows=4></TEXTAREA></td>
+                      </tr>
+                      <tr> 
+                        <td>Telefon:</td>
+                        <td><input name="TELEFON" size="30" maxlength="30" /></td>
+
+                      </tr>
+                      <TR> 
+                        <td>Fax:</td>
+                        <td><input name="FAX" size="30" maxlength="30" /></td>
+                      </TR>
+                      <tr> 
+                        <td>E-Mail:</td>
+                        <TD><input name="EMAIL" size="30" maxlength="100" /></TD>
+                      </tr>
+
+                      <TR> 
+                        <td colspan=2>Beruflicher Werdegang:</td>
+                      </TR>
+                      <tr> 
+                        <td colspan=2><TEXTAREA cols=50 name=WERDEGANG rows=5></TEXTAREA></td>
+                      </tr>
+                      <tr> 
+                        <td colspan=2 bgcolor="#006800"><font color="white">Zur 
+                          Zeit Besch&auml;ftigt bei</font></td>
+
+                      </tr>
+                      <tr> 
+                        <td>Name:</td>
+                        <td><input name="FIRMA_NAME" size="30" maxlength="60" /></td>
+                      </tr>
+                      <tr> 
+                        <td>Adresse:</td>
+                        <td><TEXTAREA cols=30 name=FIRMA_ADRESSE rows=4></TEXTAREA></td>
+
+                      </tr>
+                      <tr> 
+                        <td>Telefon:</td>
+                        <td><input name="FIRMA_TELEFON" size="30" maxlength="30" /></td>
+                      </tr>
+                      <TR> 
+                        <td>Fax:</td>
+                        <td><input name="FIRMA_FAX" size="30" maxlength="30" /></td>
+                      </TR>
+
+                      <tr> 
+                        <td>E-Mail:</td>
+                        <TD><input name="FIRMA_EMAIL" size="30" maxlength="100" /></TD>
+                      </tr>
+                      <tr> 
+                        <td colspan="2">Arbeitsprofil der Firma:</td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><textarea cols=50 name=FIRMA_PROFIL rows=5></textarea></td>
+
+                      </tr>
+                      <tr> 
+                        <td colspan="2">Eigenes Arbeitsprofil:</td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><textarea cols=50 name=PROFIL rows=5></textarea></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><input type="submit" name="SEND" value="Absenden"/> 
+                          <input name="reset" type="reset" value="L&ouml;schen"/></td>
+
+                      </tr>
+                    </table>
+                  </form>
+
+

@@ -1,0 +1,5 @@
+---
+title: Steckbrief - Fehler
+inMenu: false
+---
+Fehler: Sie haben ein oder mehrere Pflichtfelder nicht ausgefüllt. Daher konnten Ihre Daten nicht abgeschickt werden. Bitte gehen sie <a href="javascript:back()">Zurück</a> auf die Eingabeseite und füllen die Felder korrekt aus !
