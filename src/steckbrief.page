@@ -1,8 +1,8 @@
 ---
 title: Steckbrief
-inMenu: true
-orderInfo: 50
----
+in_menu: true
+sort_info: 50
+--- pipeline:redcloth
 Wenn Sie diesen Steckbrief ausfüllen, werden Ihre Daten in die 
             Datenbank des AKUT e.V. aufgenommen und stehen allen anderen Mitgliedern 
             zur Verfügung. Dies soll die Einrichtung einer Art Netzwerk von Umwelttechnikern 

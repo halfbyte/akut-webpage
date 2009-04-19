@@ -12,12 +12,12 @@
 	    <h2>an der HAW Hamburg e.V.</h2>
     </div>
     <div id="menuBar">
-	    {menu: vertical}
+	    {menu:}
     </div>
 
     <div id="content">
 	    <h1>{title:}</h1>
-	    {block: }
+	    <webgen:block name='content' />
     </div>
 
     <div id="footer" class="bar">

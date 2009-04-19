@@ -9,7 +9,7 @@ body div { text-align:left;}
 	height:90px;width:683px;
 	background: transparent url(images/logo.png) top left no-repeat;
 	margin:0 auto; padding:0 0 0 100px;
-	/*border:1px solid red;*/
+	/*border:1px solid red;*/ 
 }
 #header h1,#header h2 { margin:0;padding:0}
 #header h1 a:link, #header h1 a:visited { color:#000;text-decoration:none;}
@@ -47,3 +47,4 @@ body div { text-align:left;}
 .programItem { margin-bottom:30px;}
 
 #content td, #content th { font-family: Georgia, serif;}
+#menuBar .webgen-menu-item-selected {font-weight:bold; color:#ff0;}

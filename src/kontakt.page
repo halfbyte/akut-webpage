@@ -1,8 +1,8 @@
 ---
 title: Kontakt
-inMenu: true
-orderInfo: 60
----
+in_menu: true
+sort_info: 60
+--- pipeline:redcloth
 h2. Anschrift Geschäftsstelle
 
 Arbeitskreis Umwelttechnik<br/>

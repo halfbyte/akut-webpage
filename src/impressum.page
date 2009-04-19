@@ -1,7 +1,7 @@
 ---
 title: Impressum
-inMenu: false
----
+in_menu: false
+--- pipeline:redcloth
 h2. Verantwortlich
 
 Arbeitskreis Umwelttechnik an der Hochschule für angewandte Wissenschaften Hamburg e.V. - Prof. Dr. Kühle (stellv. Vorsitzender)

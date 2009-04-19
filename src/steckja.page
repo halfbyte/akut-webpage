@@ -1,5 +1,5 @@
 ---
 title: Steckbrief erfolgreich übermittelt
-inMenu: false
----
+in_menu: false
+--- pipeline:redcloth
 Ihr Steckbrief wurde erfolgreich verschickt. Vielen Dank!

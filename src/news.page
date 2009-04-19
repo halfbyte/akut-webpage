@@ -1,8 +1,8 @@
 ---
 title: News
-inMenu: true
-orderInfo: 20
----
-h2. Semesterprogramm Sommersemester 2008
+in_menu: true
+sort_info: 20
+--- pipeline:redcloth
+h2. Semesterprogramm Sommersemester 2009
 
 Sie finden das Programm wie üblich unter "Semesterprogramm":programm.html
